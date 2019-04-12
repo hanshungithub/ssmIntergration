@@ -49,7 +49,7 @@
     <servlet-mapping>
         <servlet-name>ssmIntergration</servlet-name>
         <!-- 设置所有以action结尾的请求进入SpringMVC -->
-        <url-pattern>*.do</url-pattern>
+        <url-pattern>*</url-pattern>
     </servlet-mapping>
 
     <!--spring相关配置-->
