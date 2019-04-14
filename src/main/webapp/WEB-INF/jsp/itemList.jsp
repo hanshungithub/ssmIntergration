@@ -9,7 +9,7 @@
     <title>查询商品列表</title>
 </head>
 <body>
-<form action="${pageContext.request.contextPath }/queryItem.action" method="post">
+<form action="${pageContext.request.contextPath }/item/queryItem.action" method="post">
     查询条件：
     <table width="100%" border=1>
         <tr>
@@ -19,7 +19,7 @@
 </form>
 商品列表：
 <%-- <form action="${pageContext.request.contextPath }/deletes.action" method="post"> --%>
-<form action="${pageContext.request.contextPath }/updates.action" method="post">
+<form action="${pageContext.request.contextPath }/item/updates.action" method="post">
     <table width="100%" border=1>
         <tr>
             <td><input type="checkbox" name="ids" value=""></td>
@@ -37,7 +37,7 @@
                 <td><fmt:formatDate value="${item.createtime}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
                 <td>${item.detail }</td>
 
-                <td><a href="${pageContext.request.contextPath }/itemEdit.action?id=${item.id}">修改</a></td>
+                <td><a href="${pageContext.request.contextPath }/item/itemEdit.action?id=${item.id}">修改</a></td>
 
             </tr>
         </c:forEach>
