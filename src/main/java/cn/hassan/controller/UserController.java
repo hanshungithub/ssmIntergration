@@ -1,6 +1,9 @@
 package cn.hassan.controller;
 
+import cn.hassan.pojo.User;
+import cn.hassan.pojo.UserForm;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
@@ -35,6 +38,17 @@ public class UserController {
 
 		// 把用户名放到session中
 		session.setAttribute("username", username);
+
+		return "redirect:/item/itemList.action";
+	}
+
+	@RequestMapping("loginUser")
+	public String loginUser(@RequestBody UserForm user) {
+		// 校验用户登录
+		System.out.println(user.getUsernaem());
+		System.out.println(user.getPassword());
+
+		// 把用户名放到session中
 
 		return "redirect:/item/itemList.action";
 	}
