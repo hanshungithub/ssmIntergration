@@ -45,7 +45,7 @@ public class UserController {
 	@RequestMapping("loginUser")
 	public String loginUser(@RequestBody UserForm user) {
 		// 校验用户登录
-		System.out.println(user.getUsernaem());
+		System.out.println(user.getUsername());
 		System.out.println(user.getPassword());
 
 		// 把用户名放到session中
