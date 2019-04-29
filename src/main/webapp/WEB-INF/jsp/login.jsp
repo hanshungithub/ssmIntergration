@@ -11,7 +11,7 @@
 </head>
 <body> 
 <form action="${pageContext.request.contextPath }/user/login.action" method="post">
-	用户名：<input type="text" name="username" value="safdsdafas">
+	用户名：<input type="text" name="username" value="hassan">
 	<input type="submit" value="提交">
 </form>
 </body>
