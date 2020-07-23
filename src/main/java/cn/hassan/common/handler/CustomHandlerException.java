@@ -1,6 +1,6 @@
-package cn.hassan.handler;
+package cn.hassan.common.handler;
 
-import cn.hassan.exception.MyException;
+import cn.hassan.common.exception.MyException;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
 

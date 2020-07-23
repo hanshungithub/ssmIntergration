@@ -1,8 +1,8 @@
-package cn.hassan.bo.impl;
+package cn.hassan.site.bo.impl;
 
-import cn.hassan.bo.ItemService;
-import cn.hassan.mapper.ItemsMapper;
-import cn.hassan.pojo.Items;
+import cn.hassan.site.bo.ItemService;
+import cn.hassan.site.mapper.ItemsMapper;
+import cn.hassan.site.pojo.Items;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

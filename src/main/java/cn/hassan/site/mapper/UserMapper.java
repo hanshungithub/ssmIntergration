@@ -1,7 +1,7 @@
-package cn.hassan.mapper;
+package cn.hassan.site.mapper;
 
-import cn.hassan.pojo.User;
-import cn.hassan.pojo.UserExample;
+import cn.hassan.site.pojo.User;
+import cn.hassan.site.pojo.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

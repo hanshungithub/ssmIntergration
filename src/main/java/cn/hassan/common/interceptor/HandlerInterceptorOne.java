@@ -1,4 +1,4 @@
-package cn.hassan.interceptor;
+package cn.hassan.common.interceptor;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

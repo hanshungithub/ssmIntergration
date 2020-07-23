@@ -1,4 +1,4 @@
-package cn.hassan.exception;
+package cn.hassan.common.exception;
 
 public class MyException extends Exception {
 

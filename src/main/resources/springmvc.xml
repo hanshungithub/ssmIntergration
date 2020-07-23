@@ -9,7 +9,7 @@
 
 
     <!-- 扫描@Controler  @Service   -->
-    <context:component-scan base-package="cn.hassan.controller"/>
+    <context:component-scan base-package="cn.hassan.site.controller"/>
 
     <!-- 处理器映射器 -->
     <!--         <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/> -->
@@ -22,7 +22,7 @@
     <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
         <property name="converters">
             <set>
-                <bean class="cn.hassan.utils.DateConverter"/>
+                <bean class="cn.hassan.common.utils.DateConverter"/>
             </set>
         </property>
     </bean>
@@ -34,7 +34,7 @@
     </bean>
 
     <!--全局异常处理器-->
-    <bean id="customException" class="cn.hassan.handler.CustomHandlerException"/>
+    <bean id="customException" class="cn.hassan.common.handler.CustomHandlerException"/>
 
     <!--配置文件上传解析器-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
@@ -45,16 +45,16 @@
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
-            <bean class="cn.hassan.interceptor.HandlerInterceptorOne"/>
+            <bean class="cn.hassan.common.interceptor.HandlerInterceptorOne"/>
         </mvc:interceptor>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
-            <bean class="cn.hassan.interceptor.HandlerInterceptorTwo"/>
+            <bean class="cn.hassan.common.interceptor.HandlerInterceptorTwo"/>
         </mvc:interceptor>
         <!--用户登录拦截器-->
         <mvc:interceptor>
             <mvc:mapping path="/item/**"/>
-            <bean class="cn.hassan.interceptor.LoginHandlerInterceptor"/>
+            <bean class="cn.hassan.common.interceptor.LoginHandlerInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
 

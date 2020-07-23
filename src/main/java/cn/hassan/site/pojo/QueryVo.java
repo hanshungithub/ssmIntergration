@@ -1,4 +1,4 @@
-package cn.hassan.pojo;
+package cn.hassan.site.pojo;
 
 public class QueryVo {
 	//商品

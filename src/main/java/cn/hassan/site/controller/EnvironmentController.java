@@ -1,4 +1,4 @@
-package cn.hassan.controller;
+package cn.hassan.site.controller;
 
 import org.springframework.context.EnvironmentAware;
 import org.springframework.core.env.Environment;

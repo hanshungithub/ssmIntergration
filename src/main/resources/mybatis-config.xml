@@ -8,7 +8,7 @@
 	</settings>
 	
 	<typeAliases>
-		<package name="cn.hassan.pojo"/>
+		<package name="cn.hassan.site.pojo"/>
 	</typeAliases>
 	
 	<plugins>

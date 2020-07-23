@@ -1,6 +1,6 @@
-package cn.hassan.controller;
+package cn.hassan.site.controller;
 
-import cn.hassan.pojo.UserForm;
+import cn.hassan.site.pojo.UserForm;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

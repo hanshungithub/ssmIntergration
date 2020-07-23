@@ -1,6 +1,6 @@
-package cn.hassan.bo;
+package cn.hassan.site.bo;
 
-import cn.hassan.pojo.Items;
+import cn.hassan.site.pojo.Items;
 
 import java.util.List;
 
