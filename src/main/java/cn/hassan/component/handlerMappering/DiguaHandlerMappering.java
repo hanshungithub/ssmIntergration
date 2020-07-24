@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
  * Date: 2019/4/18 8:28
  * Description:
  */
-@Component
+//@Component
 public class DiguaHandlerMappering implements HandlerMapping {
 	public HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {
 		String url = request.getRequestURI().toString();

@@ -43,14 +43,14 @@
 
     <!--配置拦截器-->
     <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/**"/>
-            <bean class="cn.hassan.common.interceptor.HandlerInterceptorOne"/>
-        </mvc:interceptor>
-        <mvc:interceptor>
-            <mvc:mapping path="/**"/>
-            <bean class="cn.hassan.common.interceptor.HandlerInterceptorTwo"/>
-        </mvc:interceptor>
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/**"/>-->
+<!--            <bean class="cn.hassan.common.interceptor.HandlerInterceptorOne"/>-->
+<!--        </mvc:interceptor>-->
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/**"/>-->
+<!--            <bean class="cn.hassan.common.interceptor.HandlerInterceptorTwo"/>-->
+<!--        </mvc:interceptor>-->
         <!--用户登录拦截器-->
         <mvc:interceptor>
             <mvc:mapping path="/item/**"/>
