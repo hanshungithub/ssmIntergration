@@ -5,6 +5,7 @@
          version="3.1">
     <display-name>ssmIntegration</display-name>
 
+    <!--tomcat 加载web.xml的顺序为：listener->filter->servlet -->
 
     <!-- 字符编码过滤器，一定要放在所有过滤器之前 -->
     <filter>
