@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-    <display-name>ssmIntergration</display-name>
+    <display-name>ssmIntegration</display-name>
 
 
     <!-- 字符编码过滤器，一定要放在所有过滤器之前 -->
