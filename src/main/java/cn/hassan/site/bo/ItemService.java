@@ -11,4 +11,6 @@ public interface ItemService {
 	Items queryItemsById(int id);
 
 	void updateItemById(Items items);
+
+	void B();
 }
